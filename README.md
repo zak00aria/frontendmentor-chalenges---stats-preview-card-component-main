@@ -19,4 +19,4 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://zak00aria.github.io/frontendmentor-chalenges---stats-preview-card-component-main/](https://zak00aria.github.io/frontendmentor-chalenges---stats-preview-card-component-main/)
