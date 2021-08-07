@@ -8,6 +8,22 @@ body{
     min-height:100vh;
     background:hsl(225, 100%, 94%);
 }
+.only-phone{
+    display:none;
+}
+.bg{
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+}
+@media (max-width:600px){
+    .only-desktop{
+        display:none;
+    }
+    .only-phone{
+        display:block;
+    }
+}
 .card{
     font-family:'Red Hat Display', sans-serif;
     position:absolute;
@@ -17,12 +33,12 @@ body{
     max-width:450px;
     min-width:300px;
     margin:auto;
-    top:0%;left:50%;
-    transform:translate(-50%, 102px);
+    top:50%;left:50%;
+    transform:translate(-50%, -50%);
     text-align:center;
     overflow:hidden;
     border-radius:20px;
-    box-shadow:0 40px 20px hsla(224, 23%, 55%, .2);
+    box-shadow:0 40px 20px hsla(224, 23%, 55%, .1);
 }
 .card *{
     font-family: 'Red Hat Display', sans-serif;
