@@ -127,8 +127,8 @@ body{
     margin-right:23px;
 }
 .card .current-plan a:hover{
-    text-decration:none;
-    color:hsla(224, 23%, 55%);
+    text-decoration:none;
+    color:hsl(224, 23%, 55%);
 }
 .card .btn{
     display:inline-block;
@@ -143,7 +143,7 @@ body{
     border-radius:8px;
     box-shadow:0 20px 20px hsla(245, 75%, 52%,0.2);
 }
-.card .btn:hver{
+.card .btn:hover{
     background:hsla(224, 23%, 55%);
 }
 .card .btn-cancel{
