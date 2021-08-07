@@ -126,6 +126,10 @@ body{
     transform:translateY(-50%);
     margin-right:23px;
 }
+.card .current-plan a:hover{
+    text-decration:none;
+    color:hsla(224, 23%, 55%);
+}
 .card .btn{
     display:inline-block;
     text-decoration: none;
@@ -139,6 +143,9 @@ body{
     border-radius:8px;
     box-shadow:0 20px 20px hsla(245, 75%, 52%,0.2);
 }
+.card .btn:hver{
+    background:hsla(224, 23%, 55%);
+}
 .card .btn-cancel{
     display:inline-block;
     text-decoration: none;
@@ -149,6 +156,9 @@ body{
     margin:21px 0 24px;
     color:hsl(224, 23%, 55%);
     border-radius:8px;
+}
+.card .btn-cancel:hover{
+    color:hsl(223, 47%, 23%);
 }
 .attribution { 
     border-radius:10px 10px 0 0;
